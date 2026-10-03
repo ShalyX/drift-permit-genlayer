@@ -75,6 +75,10 @@ lease_seconds: 3600
 
 Use stable, public, non-personalized sources. `examples/dependency_policy.md` is the repository's live-test fixture: a Studio demonstration can authenticate a commit-pinned raw URL as the baseline and use the `main` raw URL as the live source. Updating that file after the compatible path provides a real public drift event while Git history preserves the exact baseline.
 
+## Live Studio verification
+
+The complete Normal (Full Consensus) demonstration is recorded in [`docs/live-studio-verification.md`](docs/live-studio-verification.md). It includes the deployed contract addresses, finalized transaction hashes, authenticated source hashes, compatible permit lifecycle, contract-to-contract consumption, breaking-drift verdict, and the expected on-chain rollback when an old permit is reused.
+
 ## Run checks
 
 ```powershell
