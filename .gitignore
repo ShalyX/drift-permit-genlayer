@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+artifacts/
+.env
+.env.*
+!.env.example
+gltest.config.yaml
+SUBMISSION.md
+docs/private/
